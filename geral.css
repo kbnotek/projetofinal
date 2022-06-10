@@ -1,3 +1,14 @@
+/*Criando o topo do site*/
+#topo{
+        width: 100%;
+        background-color:rgb(23, 245, 16);
+       
+
+        
+       
+}
+
+
 /*Exemplo de CSS Externo*/
 body{
         background-color:cornsilk;
@@ -5,13 +16,22 @@ body{
 }
 /*pai*/
 ul{
-    background-color: yellow;    
-}
+        
+      width: 100%;
+      height: 17px;
+      border: 1px solid red;  
+      
+}       
 /*filho*/
 ul li{
-        background-color: brown;
+        
+    
+     display:inline;
+     padding-left: 80px;
 }
 /*neto*/
 ul li a{
-        background-color: aqua;
+   text-decoration: none;
+   
+      
 }
