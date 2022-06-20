@@ -46,6 +46,8 @@
          width:50px;
          height:50px;    
          margin-left: 110px;
+         border: 2px solid black;
+         
     }
     /*neto*/
     ul li a{
@@ -55,8 +57,9 @@
        
        
     }
-    ul li a:hover{    
-        background-color: coral;  
+    ul li a:hover{  
+        
+        background-color: yellow;  
         
     }
     
